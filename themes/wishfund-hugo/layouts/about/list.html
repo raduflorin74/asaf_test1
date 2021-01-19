@@ -2,9 +2,11 @@
 
 {{ partial "page-title.html" . }}
 
+{{ $data := index site.Data site.Language.Lang }}
+
 <!-- about -->
-{{ if .Site.Data.about.about.enable }}
-{{ with .Site.Data.about.about }}
+{{ if $data.about.about.enable }}
+{{ with $data.about.about }}
 <section class="section about-page">
   <div class="container">
     <div class="row">
@@ -28,8 +30,8 @@
 <!-- /aobut -->
 
 <!-- partners -->
-{{ if .Site.Data.about.partners.enable }}
-{{ with .Site.Data.about.partners }}
+{{ if $dataabout.partners.enable }}
+{{ with $data.about.partners }}
 <div class="section pt-0">
   <div class="container">
     <div class="row justify-content-center">
@@ -58,8 +60,8 @@
 <!-- /partners -->
 
 <!-- history -->
-{{ if .Site.Data.about.history.enable }}
-{{ with .Site.Data.about.history }}
+{{ if $data.about.history.enable }}
+{{ with $data.about.history }}
 <section class="section feature pb-0">
   <div class="container">
     <div class="row no-gutters">
@@ -81,8 +83,8 @@
 <!-- /history -->
 
 <!--  Section Services Start -->
-{{ if .Site.Data.about.team.enable }}
-{{ with .Site.Data.about.team }}
+{{ if $data.about.team.enable }}
+{{ with $data.about.team }}
 <section class="section team">
   <div class="container">
     <div class="row justify-content-center">
@@ -135,13 +137,13 @@
 <!-- /team -->
 
 <!-- call to action -->
-{{ if .Site.Data.about.cta.enable }}
+{{ if $data.about.cta.enable }}
 {{ partial "cta.html" . }}
 {{ end }}
 <!-- /call to action -->
 
 <!-- gallery -->
-{{ if .Site.Data.about.gallery.enable }}
+{{ if $data.about.gallery.enable }}
 {{ partial "gallery.html" . }}
 {{ end }}
 <!-- /gallary -->
