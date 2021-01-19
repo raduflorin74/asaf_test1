@@ -150,7 +150,7 @@ copyright = "Copyright &copy; 2020 Creat de [RFS](https://rf-software.com)"
 # main menu
 [[Languages.ro.menu.main]]
 name = "Despre noi"
-URL = "about"
+URL = "/about"
 weight = 1
 
 [[Languages.ro.menu.main]]
@@ -228,7 +228,7 @@ copyright = "Copyright &copy; 2021 Created by [RFS](https://rf-software.com)"
 # main menu
 [[Languages.en.menu.main]]
 name = "About"
-URL = "about"
+URL = "/about"
 weight = 1
 
 [[Languages.en.menu.main]]
