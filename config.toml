@@ -79,7 +79,7 @@ enable = true
 [params.navBtn]
 enable = true
 #label = "Get a quote"
-link = "donation"
+link = "/donation"
 
 # Subscription
 [params.subscription]
@@ -140,7 +140,6 @@ languageName = "Ro"
 languageCode = "ro-ro"
 contentDir = "content/romanian"
 home = "Acasa"
-URL = ""
 # copyright
 copyright = "Copyright &copy; 2020 Creat de [RFS](https://rf-software.com)"
 
@@ -155,12 +154,12 @@ weight = 1
 
 [[Languages.ro.menu.main]]
 name = "Blog"
-URL = "blog"
+URL = "/blog"
 weight = 2
 
 [[Languages.ro.menu.main]]
 name = "Proiecte"
-URL = "causes"
+URL = "/causes"
 weight = 3
 
 [[Languages.ro.menu.main]]
@@ -171,21 +170,21 @@ hasChildren = true
   [[Languages.ro.menu.main]]
   parent = "Implica-te"
   name = "Doneaza"
-  URL = "donation"
+  URL = "/donation"
 
   [[Languages.ro.menu.main]]
   parent = "Implica-te"
   name = "Voluntariat"
-  URL = "volunteer"
+  URL = "/volunteer"
   
 [[Languages.ro.menu.main]]
 name = "Evenimente"
-URL = "event"
+URL = "/event"
 weight = 5
   
 [[Languages.ro.menu.main]]
 name = "Contact"
-URL = "contact"
+URL = "/contact"
 weight = 6
 
 
@@ -199,17 +198,17 @@ weight = 1
 
 [[Languages.ro.menu.footer]]
 name = "Despre noi"
-URL = "about"
+URL = "/about"
 weight = 2
 
 [[Languages.ro.menu.footer]]
 name = "Blog"
-URL = "blog"
+URL = "/blog"
 weight = 3
 
 [[Languages.ro.menu.footer]]
 name = "Preturi"
-URL = "pricing"
+URL = "/pricing"
 weight = 4
 
 ################################### English language #####################################
@@ -233,12 +232,12 @@ weight = 1
 
 [[Languages.en.menu.main]]
 name = "Blog"
-URL = "blog"
+URL = "/blog"
 weight = 2
 
 [[Languages.en.menu.main]]
 name = "Causes"
-URL = "causes"
+URL = "/causes"
 weight = 3
 
 [[Languages.en.menu.main]]
@@ -249,21 +248,21 @@ hasChildren = true
   [[Languages.en.menu.main]]
   parent = "Get Involved"
   name = "Donation"
-  URL = "donation"
+  URL = "/donation"
 
   [[Languages.en.menu.main]]
   parent = "Get Involved"
   name = "Volunteer"
-  URL = "volunteer"
+  URL = "/volunteer"
   
 [[Languages.en.menu.main]]
 name = "Event"
-URL = "event"
+URL = "/event"
 weight = 5
   
 [[Languages.en.menu.main]]
 name = "Contact"
-URL = "contact"
+URL = "/contact"
 weight = 6
 
 
@@ -272,22 +271,22 @@ weight = 6
 
 [[Languages.en.menu.footer]]
 name = "service"
-URL = "service"
+URL = "/service"
 weight = 1
 
 [[Languages.en.menu.footer]]
 name = "about"
-URL = "about"
+URL = "/about"
 weight = 2
 
 [[Languages.en.menu.footer]]
 name = "blog"
-URL = "blog"
+URL = "/blog"
 weight = 3
 
 [[Languages.en.menu.footer]]
 name = "pricing"
-URL = "pricing"
+URL = "/pricing"
 weight = 4
 
 

@@ -1,7 +1,7 @@
 ########################### about ###############################
 about:
   enable : true
-  image : "images/about/img-3.jpg"
+  image : "/images/about/img-3.jpg"
   title : "Welcome to Charite NonProfit Organization"
   leadContent : "Charite is the world’s #1 fundraising site forcharitable causes. Raise money for over 1.5
             million charities."
@@ -18,19 +18,19 @@ partners:
             ipsa laudantium nesciunt officia, odit nemo quidem hic itaque. Fugiat."
   partnersLogo:
     # partner logo loop
-    - logo : "images/clients/client1.png"
+    - logo : "/images/clients/client1.png"
       link : "#"
       
     # partner logo loop
-    - logo : "images/clients/client2.png"
+    - logo : "/images/clients/client2.png"
       link : "#"
       
     # partner logo loop
-    - logo : "images/clients/client5.png"
+    - logo : "/images/clients/client5.png"
       link : "#"
       
     # partner logo loop
-    - logo : "images/clients/client4.png"
+    - logo : "/images/clients/client4.png"
       link : "#"
 
 
@@ -69,7 +69,7 @@ team:
     # team member loop
     - name : "Justin hammer"
       designation : "Student"
-      image : "images/team/volunteer-img1.1.jpg"
+      image : "/images/team/volunteer-img1.1.jpg"
       social:
         - name : "facebook"
           icon : "ti-facebook" # themify icon pack https://themify.me/themify-icons
@@ -90,7 +90,7 @@ team:
     # team member loop
     - name : "Jason roy"
       designation : "Businessman"
-      image : "images/team/volunteer-img1.2.jpg"
+      image : "/images/team/volunteer-img1.2.jpg"
       social:
         - name : "facebook"
           icon : "ti-facebook" # themify icon pack https://themify.me/themify-icons
@@ -111,7 +111,7 @@ team:
     # team member loop
     - name : "Henry oswald"
       designation : "CO founder"
-      image : "images/team/volunteer-img1.3.jpg"
+      image : "/images/team/volunteer-img1.3.jpg"
       social:
         - name : "facebook"
           icon : "ti-facebook" # themify icon pack https://themify.me/themify-icons
@@ -132,7 +132,7 @@ team:
     # team member loop
     - name : "John Doe"
       designation : "Businessman"
-      image : "images/team/volunteer-img1.1.jpg"
+      image : "/images/team/volunteer-img1.1.jpg"
       social:
         - name : "facebook"
           icon : "ti-facebook" # themify icon pack https://themify.me/themify-icons
