@@ -18,38 +18,38 @@ paginate = 6
 
 # CSS Plugins
 [[params.plugins.css]]
-URL = "plugins/bootstrap/css/bootstrap.min.css"
+URL = "/plugins/bootstrap/css/bootstrap.min.css"
 [[params.plugins.css]]
-URL = "plugins/themify/css/themify-icons.css"
+URL = "/plugins/themify/css/themify-icons.css"
 [[params.plugins.css]]
-URL = "plugins/magnific-popup/dist/magnific-popup.css"
+URL = "/plugins/magnific-popup/dist/magnific-popup.css"
 [[params.plugins.css]]
-URL = "plugins/slick-carousel/slick/slick.css"
+URL = "/plugins/slick-carousel/slick/slick.css"
 
 # JS Plugins
 [[params.plugins.js]]
-URL = "plugins/jquery/jquery.js"
+URL = "/plugins/jquery/jquery.js"
 [[params.plugins.js]]
-URL = "plugins/bootstrap/js/bootstrap.min.js"
+URL = "/plugins/bootstrap/js/bootstrap.min.js"
 [[params.plugins.js]]
-URL = "plugins/magnific-popup/dist/jquery.magnific-popup.min.js"
+URL = "/plugins/magnific-popup/dist/jquery.magnific-popup.min.js"
 [[params.plugins.js]]
-URL = "plugins/slick-carousel/slick/slick.min.js"
+URL = "/plugins/slick-carousel/slick/slick.min.js"
 [[params.plugins.js]]
-URL = "plugins/reading-time/readingTime.min.js"
+URL = "/plugins/reading-time/readingTime.min.js"
 [[params.plugins.js]]
-URL = "plugins/search/fuse.min.js"
+URL = "/plugins/search/fuse.min.js"
 [[params.plugins.js]]
-URL = "plugins/search/mark.js"
+URL = "/plugins/search/mark.js"
 [[params.plugins.js]]
-URL = "plugins/search/search.js"
+URL = "/plugins/search/search.js"
 [[params.plugins.js]]
-URL = "plugins/google-map/map.js"
+URL = "/plugins/google-map/map.js"
   
 #######################
 
 [params]
-logo = "images/logo.png"
+logo = "/images/logo.png"
 home = "Home"
 # Contact Information
 phone = "012548722120"
@@ -63,7 +63,7 @@ author = "Themefisher"
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
 mapLatitude = "51.5223477"
 mapLongitude = "-0.1622023"
-mapMarker = "images/marker.png"
+mapMarker = "/images/marker.png"
 # Google Analitycs
 googleAnalitycsID = "Your ID"
 
